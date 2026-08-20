@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Brand -->
+    <color name="green_primary">#70D99A</color>
+    <color name="green_dark">#A1E8BB</color>
+    <color name="green_light">#214B34</color>
+    <color name="green_lighter">#183024</color>
+
+    <!-- Dark surfaces -->
+    <color name="background">#0E1511</color>
+    <color name="surface">#17201B</color>
+    <color name="surface_secondary">#1E2923</color>
+
+    <!-- Text -->
+    <color name="text_primary">#F0F5F1</color>
+    <color name="text_secondary">#C3CEC6</color>
+    <color name="text_muted">#89988E</color>
+
+    <!-- Borders -->
+    <color name="border">#2B3830</color>
+
+    <!-- Status -->
+    <color name="danger">#FF8585</color>
+    <color name="danger_light">#422426</color>
+
+    <!-- Basic -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+</resources>

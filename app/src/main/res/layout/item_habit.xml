@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/bg_stat_card"
+    android:orientation="vertical"
+    android:padding="17dp">
+
+    <!-- TOP ROW -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- HABIT NAME -->
+
+            <TextView
+                android:id="@+id/tvHabitName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Exercise"
+                android:textColor="@color/text_primary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- STREAK -->
+
+            <TextView
+                android:id="@+id/tvStreak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="🔥 0 days streak"
+                android:textColor="@color/green_primary"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <!-- DELETE -->
+
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:background="@drawable/bg_delete_button"
+            android:contentDescription="Delete habit"
+            android:padding="10dp"
+            android:src="@android:drawable/ic_menu_delete"
+            android:tint="@color/danger" />
+
+    </LinearLayout>
+
+
+    <!-- WEEKLY PROGRESS -->
+
+    <LinearLayout
+        android:id="@+id/weekContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal" />
+
+
+    <!-- COMPLETE BUTTON -->
+
+    <Button
+        android:id="@+id/btnComplete"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/bg_complete_button"
+        android:text="✓  Complete today"
+        android:textAllCaps="false"
+        android:textColor="@color/green_dark"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
